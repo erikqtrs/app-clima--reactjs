@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    min-height: 90vh;
+}
+
+.error {
+    text-align: center;
+    background-color: rgb(141, 5, 5);
+    padding: 15px;
+    width: 60%;
+    margin: 28px auto;
+    color: white;
+}

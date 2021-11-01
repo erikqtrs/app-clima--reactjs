@@ -1,0 +1,135 @@
+.main__card {
+    background: #054977;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #054977, #109ece);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #054977, #109ece); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 12px;
+
+    section {
+        background: rgba(255, 255, 255, .3);
+        border-radius: 10px;
+        margin-top: 15px;
+        padding-bottom: 30px;
+        .content {
+            width: 100%;
+        }
+   }
+
+   h4 {
+       font-size: 1.8rem;
+       text-transform: capitalize;
+       letter-spacing: 1.5px;
+   }
+   span {
+       font-size: 1.3rem;
+   }
+   .content-flex {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+   }
+   .header__place {
+       width: 90%;
+       margin: 0 auto;
+       text-align: center;
+   }
+
+   .content__weather {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       text-align: center;
+
+       p{
+           font-size: 5.1rem;
+           font-weight: 600;
+       }
+   }
+   
+   .section__meteorological {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       h5 {
+           font-size: 1.4rem;
+       }
+
+       .content__meteorological {
+           margin-top: -30px;
+       }
+   }
+
+   .content__temp__min-max {
+       text-align: center;
+   }
+
+   .section__wind {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .content__wind {
+            margin-top: -30px;
+            h5{
+                font-size: 1.4rem;
+            }
+            span {
+                font-size: 1.3rem;
+            }
+        }
+   }
+}
+
+
+@media only screen and ( min-width: 769px ) {
+    .main__card {
+        width: 70%;
+        margin-top: 20px;
+    
+        .row-general {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .column-1{
+               width: 30%; 
+               .section__weather {
+                   width: 100%;
+               }
+            }
+
+            .column-2{
+                width: 60%;
+            }
+           
+           .row-2 {
+               display: flex;
+               justify-content: space-around;
+               .column {
+                   width: 47%;
+               }
+               
+           }
+        }
+    }
+
+    .react-icons {
+        font-size: 3.2rem;
+    }
+    span {
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and ( min-width: 1024px ) {
+    .main__card {
+        width: 90%;
+        
+    }   
+}
+
+

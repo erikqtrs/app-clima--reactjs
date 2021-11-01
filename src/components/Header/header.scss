@@ -1,0 +1,31 @@
+.app__header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+
+    .header__app-content {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        .header__logo {
+            width: 20%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .header__title {
+            width: 80%;
+            font-size: 1.2rem;
+            color: rgb(214, 233, 248);
+            h3{
+                font-size: 1.1rem;
+                margin-top: -20px;
+            }
+        }
+    }
+
+}
